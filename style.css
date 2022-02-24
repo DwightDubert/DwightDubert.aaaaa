@@ -119,10 +119,11 @@ a{
     align-items: center;
     margin-bottom: 2vh;
 }
-.WEB i{
-    font-size: 250px;
+.WEB img{
+    width: 50vw;
     margin-bottom: 5vh;
     margin-top: 5vh;
+    transition-duration: 1s;
 }
 h5{
     font-size: 20px;
@@ -161,7 +162,10 @@ body{
     transition-duration: 1s;
     font-size: 300px;
 }
-.BTSP i, .WEB i, .HTML i{
+.BTSP i, .HTML i{
     transition-duration: 1s;
     font-size: 250px;
+}
+.WEB img:hover{
+    width: 55vw;
 }
